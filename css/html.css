@@ -1,0 +1,1237 @@
+#top {
+  background-color: #333;
+  color: #b0b0b0;
+  height: 40px;
+  line-height: 40px;
+}
+#top a {
+  color: #b0b0b0;
+}
+#top a:hover {
+  color: #fff;
+}
+#top .top_sub .top_left ul > li {
+  float: left;
+}
+#top .top_sub .top_left ul > li:first-of-type a {
+  margin-left: 0;
+}
+#top .top_sub .top_left ul > li a {
+  margin: 0 7px;
+}
+#top .top_sub .top_right .topbar_info {
+  margin-right: 30px;
+}
+#top .top_sub .top_right .topbar_info a {
+  margin: 0 7px;
+}
+#top .top_sub .top_right .buycar {
+  background-color: #424242;
+  text-align: center;
+  width: 120px;
+  position: relative;
+}
+#top .top_sub .top_right .buycar a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+#top .top_sub .top_right .buycar a i {
+  margin-right: 6px;
+}
+#top .top_sub .top_right .buycar:hover {
+  background-color: #fff;
+}
+#top .top_sub .top_right .buycar:hover a {
+  color: #f00;
+}
+#top .top_sub .top_right .buycar .carlist {
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 40px;
+  width: 250px;
+  height: 100px;
+  display: none;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 0 1px 1px #aaa;
+}
+#nav {
+  height: 100px;
+  line-height: 100px;
+}
+#nav .logo a,
+#nav .win a {
+  display: block;
+}
+#nav .logo a img,
+#nav .win a img {
+  vertical-align: middle;
+}
+#nav .navlist ul li {
+  float: left;
+}
+#nav .navlist ul li a {
+  display: block;
+  font-size: 16px;
+  padding: 0 10px;
+}
+#nav .navlist ul li a:hover {
+  color: red;
+}
+#nav .navlist ul li ul {
+  display: none;
+}
+#nav .navdetail {
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 40;
+  left: 0;
+  top: 140px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 2px 2px #ddd;
+}
+#nav .navdetail ul {
+  min-width: 1500px;
+}
+#nav .navdetail ul li {
+  float: left;
+}
+#nav .navdetail ul li:last-of-type a {
+  border: none;
+}
+#nav .navdetail ul li a {
+  display: block;
+  padding: 0 30px;
+  border-right: 1px solid #ddd;
+}
+#nav .navdetail ul li a img {
+  width: 160px;
+  height: 110px;
+}
+#nav .navdetail ul li div {
+  text-align: center;
+  line-height: 30px;
+}
+#nav .navdetail ul li div:last-of-type {
+  color: red;
+}
+#nav .search {
+  position: relative;
+}
+#nav .search .placehold {
+  position: absolute;
+  width: 140px;
+  height: 12px;
+  top: 43px;
+  left: 88px;
+}
+#nav .search .placehold div {
+  position: absolute;
+  top: 0;
+  line-height: 12px;
+}
+#nav .search .placehold div a {
+  display: block;
+  background-color: #ddd;
+  padding: 0 3px;
+}
+#nav .search .placehold div a:hover {
+  background-color: red;
+  color: #fff;
+}
+#nav .search .placehold div.placehold1 {
+  left: 0;
+}
+#nav .search .placehold div.placehold2 {
+  right: 0;
+}
+#nav .search .search-inp {
+  margin-top: 25px;
+  width: 240px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+#nav .search .search-inp:focus {
+  border-color: red;
+}
+#nav .search .search-inp:focus + button {
+  border-color: red;
+}
+#nav .search .search-btn {
+  margin-top: 25px;
+  margin-left: -1px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+}
+#nav .search .search-btn:hover {
+  background-color: orange;
+  color: #fff;
+}
+#nav .search .search-result {
+  display: none;
+  border: 1px solid red;
+  width: 240px;
+  position: absolute;
+  z-index: 20;
+  background-color: #fff;
+  left: 0;
+  top: 74px;
+}
+#nav .search .search-result > li {
+  line-height: 20px;
+  padding: 5px;
+}
+#nav .search .search-result > li .item-num {
+  color: #aaa;
+}
+#slide {
+  height: 460px;
+  position: relative;
+  margin-bottom: 15px;
+}
+#slide .items {
+  float: left;
+}
+#slide .items .slideItems {
+  z-index: 30;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 235px;
+  height: 460px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  line-height: 42px;
+  text-align: center;
+}
+#slide .items .slideItems ul li:hover {
+  background-color: orange;
+}
+#slide .items .itemBox {
+  height: 100%;
+  z-index: 30;
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 235px;
+  background-color: #fff;
+}
+#slide .items .itemBox ul {
+  float: left;
+  height: 100%;
+}
+#slide .items .itemBox ul li {
+  width: 265px;
+  padding: 0 20px;
+  height: 76.6px;
+  line-height: 76.6px;
+  position: relative;
+}
+#slide .items .itemBox ul li a:first-of-type img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#slide .items .itemBox ul li a:nth-of-type(2) {
+  position: absolute;
+  right: 10px;
+  top: 27px;
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: red;
+  border: 1px solid red;
+}
+#slide .lunbo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#slide .lunbo span {
+  position: absolute;
+  z-index: 25;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 50px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+#slide .lunbo span:hover {
+  background-color: #333;
+}
+#slide .lunbo span.leftIcon {
+  left: 240px;
+}
+#slide .lunbo span.rightIcon {
+  right: 0;
+}
+#slide .lunbo .slideBox {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#slide .lunbo .slideBox.showSlide {
+  display: block;
+}
+#slide .lunbo .slideBox a {
+  display: block;
+}
+#slide .lunbo .slideBox a img {
+  width: 100%;
+  height: 100%;
+}
+#homehero {
+  margin-bottom: 30px;
+  display: flex;
+}
+#homehero .serveList {
+  float: left;
+  width: 234px;
+  height: 170px;
+  background-color: #5f5750;
+  padding: 3px;
+}
+#homehero .serveList ul li {
+  float: left;
+  width: 75px;
+  height: 82px;
+}
+#homehero .serveList ul li a {
+  color: #ddd;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+#homehero .serveList ul li a:hover {
+  color: #fff;
+}
+#homehero .serveList ul li a i {
+  display: block;
+  line-height: 24px;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+#homehero .serveList ul li a span {
+  display: block;
+}
+#homehero .serveList ul li a div {
+  position: absolute;
+}
+#homehero .serveList ul li a div.rightLine {
+  width: 1px;
+  height: 60px;
+  background-color: #ccc;
+  right: 0;
+  top: -5px;
+}
+#homehero .serveList ul li a div.bottomLine {
+  width: 60px;
+  height: 1px;
+  background-color: #ccc;
+  left: 7px;
+  bottom: -18px;
+}
+#homehero .heroList {
+  float: left;
+  flex: 1;
+}
+#homehero .heroList ul {
+  display: flex;
+  justify-content: flex-start;
+}
+#homehero .heroList ul li {
+  float: left;
+  width: 316px;
+  height: 170px;
+  margin-left: 15px;
+}
+#homehero .heroList ul li a {
+  display: block;
+}
+#homehero .heroList ul li a img {
+  width: 100%;
+  height: 100%;
+}
+#goods {
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+}
+#goods #intelHard {
+  margin-bottom: 50px;
+}
+#goods #intelHard .top-title {
+  width: 100%;
+  height: 58px;
+}
+#goods #intelHard .top-title h2 {
+  float: left;
+  line-height: 58px;
+  font-size: 23px;
+}
+#goods #intelHard .top-title a {
+  display: block;
+  float: right;
+  line-height: 58px;
+  font-size: 15px;
+}
+#goods #intelHard .top-title a:hover {
+  color: orange;
+}
+#goods #intelHard .top-title a i {
+  transform: translatey(5px);
+}
+#goods #intelHard .intel {
+  height: 614px;
+  width: 100%;
+}
+#goods #intelHard .intel .intelLeft {
+  float: left;
+  width: 234px;
+  height: 100%;
+  transition: all .3s;
+}
+#goods #intelHard .intel .intelLeft:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #intelHard .intel .intelLeft a {
+  display: block;
+}
+#goods #intelHard .intel .intelLeft a img {
+  width: 100%;
+  height: 100%;
+}
+#goods #intelHard .intel .intelRight .hardgoods {
+  position: relative;
+  background-color: #fff;
+  float: left;
+  width: 234px;
+  height: 300px;
+  margin: 0 0 14px 14px;
+  text-align: center;
+  transition: all .3s;
+}
+#goods #intelHard .intel .intelRight .hardgoods:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #intelHard .intel .intelRight .hardgoods span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translatex(-50%);
+  height: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  color: #fff;
+}
+#goods #intelHard .intel .intelRight .hardgoods span.new {
+  background-color: green;
+}
+#goods #intelHard .intel .intelRight .hardgoods span.free {
+  background-color: orange;
+}
+#goods #intelHard .intel .intelRight .hardgoods span.discount {
+  background-color: red;
+}
+#goods #intelHard .intel .intelRight .hardgoods a {
+  display: block;
+  margin-top: 20px;
+}
+#goods #intelHard .intel .intelRight .hardgoods a img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+#goods #intelHard .intel .intelRight .hardgoods .descript {
+  line-height: 50px;
+  color: #666;
+}
+#goods #intelHard .intel .intelRight .hardgoods .price {
+  line-height: 30px;
+  color: red;
+  font-size: 16px;
+}
+#goods #match,
+#goods #accessories,
+#goods #around {
+  overflow: hidden;
+}
+#goods #match .top-title,
+#goods #accessories .top-title,
+#goods #around .top-title {
+  width: 100%;
+  height: 58px;
+}
+#goods #match .top-title h2,
+#goods #accessories .top-title h2,
+#goods #around .top-title h2 {
+  float: left;
+  font-size: 23px;
+  line-height: 58px;
+}
+#goods #match .top-title .top-list,
+#goods #accessories .top-title .top-list,
+#goods #around .top-title .top-list {
+  float: right;
+}
+#goods #match .top-title .top-list ul li,
+#goods #accessories .top-title .top-list ul li,
+#goods #around .top-title .top-list ul li {
+  float: left;
+  margin-left: 30px;
+  margin-top: 16px;
+  line-height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#goods #match .top-title .top-list ul li.current,
+#goods #accessories .top-title .top-list ul li.current,
+#goods #around .top-title .top-list ul li.current {
+  color: orange;
+  border-bottom: 3px solid orange;
+}
+#goods #match .matchBox,
+#goods #accessories .matchBox,
+#goods #around .matchBox {
+  height: 614px;
+  width: 100%;
+}
+#goods #match .matchBox .matchLeft,
+#goods #accessories .matchBox .matchLeft,
+#goods #around .matchBox .matchLeft {
+  width: 234px;
+  height: 100%;
+  float: left;
+}
+#goods #match .matchBox .matchLeft > div,
+#goods #accessories .matchBox .matchLeft > div,
+#goods #around .matchBox .matchLeft > div {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 14px;
+  background-color: #fff;
+  transition: all .3s;
+}
+#goods #match .matchBox .matchLeft > div:hover,
+#goods #accessories .matchBox .matchLeft > div:hover,
+#goods #around .matchBox .matchLeft > div:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #match .matchBox .matchLeft > div a,
+#goods #accessories .matchBox .matchLeft > div a,
+#goods #around .matchBox .matchLeft > div a {
+  display: block;
+}
+#goods #match .matchBox .matchLeft > div a img,
+#goods #accessories .matchBox .matchLeft > div a img,
+#goods #around .matchBox .matchLeft > div a img {
+  width: 234px;
+  height: 300px;
+}
+#goods #match .matchBox .matchRight .hardgoods,
+#goods #accessories .matchBox .matchRight .hardgoods,
+#goods #around .matchBox .matchRight .hardgoods {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  float: left;
+  width: 234px;
+  height: 300px;
+  margin: 0 0 14px 14px;
+  text-align: center;
+  transition: all .3s;
+}
+#goods #match .matchBox .matchRight .hardgoods:hover,
+#goods #accessories .matchBox .matchRight .hardgoods:hover,
+#goods #around .matchBox .matchRight .hardgoods:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #match .matchBox .matchRight .hardgoods:hover .reviewDesc,
+#goods #accessories .matchBox .matchRight .hardgoods:hover .reviewDesc,
+#goods #around .matchBox .matchRight .hardgoods:hover .reviewDesc {
+  transform: none;
+}
+#goods #match .matchBox .matchRight .hardgoods a,
+#goods #accessories .matchBox .matchRight .hardgoods a,
+#goods #around .matchBox .matchRight .hardgoods a {
+  display: block;
+  margin-top: 20px;
+}
+#goods #match .matchBox .matchRight .hardgoods a img,
+#goods #accessories .matchBox .matchRight .hardgoods a img,
+#goods #around .matchBox .matchRight .hardgoods a img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+#goods #match .matchBox .matchRight .hardgoods .heat,
+#goods #accessories .matchBox .matchRight .hardgoods .heat,
+#goods #around .matchBox .matchRight .hardgoods .heat {
+  line-height: 30px;
+  color: #666;
+}
+#goods #match .matchBox .matchRight .hardgoods .price,
+#goods #accessories .matchBox .matchRight .hardgoods .price,
+#goods #around .matchBox .matchRight .hardgoods .price {
+  line-height: 50px;
+  color: red;
+  font-size: 16px;
+}
+#goods #match .matchBox .matchRight .hardgoods .reviewDesc,
+#goods #accessories .matchBox .matchRight .hardgoods .reviewDesc,
+#goods #around .matchBox .matchRight .hardgoods .reviewDesc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  color: #fff;
+  line-height: 18px;
+  width: 100%;
+  transform: translatey(100%);
+  transition: all .3s;
+}
+#goods #match .matchBox .matchRight .hardgoods .reviewDesc span,
+#goods #accessories .matchBox .matchRight .hardgoods .reviewDesc span,
+#goods #around .matchBox .matchRight .hardgoods .reviewDesc span {
+  display: block;
+}
+#goods #match .matchBox .matchRight .lastgoods,
+#goods #accessories .matchBox .matchRight .lastgoods,
+#goods #around .matchBox .matchRight .lastgoods {
+  float: left;
+  width: 234px;
+  height: 143px;
+  margin: 0 0 14px 14px;
+  background-color: #fff;
+  padding: 30px 0 0 30px;
+  transition: all .3s;
+}
+#goods #match .matchBox .matchRight .lastgoods:hover,
+#goods #accessories .matchBox .matchRight .lastgoods:hover,
+#goods #around .matchBox .matchRight .lastgoods:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #match .matchBox .matchRight .lastgoods a,
+#goods #accessories .matchBox .matchRight .lastgoods a,
+#goods #around .matchBox .matchRight .lastgoods a {
+  display: block;
+}
+#goods #match .matchBox .matchRight .lastgoods a > div,
+#goods #accessories .matchBox .matchRight .lastgoods a > div,
+#goods #around .matchBox .matchRight .lastgoods a > div {
+  width: 80px;
+  height: 80px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px;
+}
+#goods #match .matchBox .matchRight .lastgoods a > div .price,
+#goods #accessories .matchBox .matchRight .lastgoods a > div .price,
+#goods #around .matchBox .matchRight .lastgoods a > div .price {
+  color: red;
+}
+#goods #match .matchBox .matchRight .lastgoods a > img,
+#goods #accessories .matchBox .matchRight .lastgoods a > img,
+#goods #around .matchBox .matchRight .lastgoods a > img {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+#goods #match .matchBox .matchRight .lastmoregoods,
+#goods #accessories .matchBox .matchRight .lastmoregoods,
+#goods #around .matchBox .matchRight .lastmoregoods {
+  float: left;
+  width: 234px;
+  height: 143px;
+  margin: 0 0 14px 14px;
+  background-color: #fff;
+  padding: 30px 0 0 30px;
+  transition: all .3s;
+}
+#goods #match .matchBox .matchRight .lastmoregoods:hover,
+#goods #accessories .matchBox .matchRight .lastmoregoods:hover,
+#goods #around .matchBox .matchRight .lastmoregoods:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #match .matchBox .matchRight .lastmoregoods a,
+#goods #accessories .matchBox .matchRight .lastmoregoods a,
+#goods #around .matchBox .matchRight .lastmoregoods a {
+  display: block;
+}
+#goods #match .matchBox .matchRight .lastmoregoods a > div,
+#goods #accessories .matchBox .matchRight .lastmoregoods a > div,
+#goods #around .matchBox .matchRight .lastmoregoods a > div {
+  width: 80px;
+  height: 80px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px;
+}
+#goods #match .matchBox .matchRight .lastmoregoods a > div .hotmore,
+#goods #accessories .matchBox .matchRight .lastmoregoods a > div .hotmore,
+#goods #around .matchBox .matchRight .lastmoregoods a > div .hotmore {
+  color: red;
+}
+#goods #match .matchBox .matchRight .lastmoregoods a > i,
+#goods #accessories .matchBox .matchRight .lastmoregoods a > i,
+#goods #around .matchBox .matchRight .lastmoregoods a > i {
+  float: left;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 50px;
+  color: orange;
+}
+#goods #recommend {
+  overflow: hidden;
+}
+#goods #recommend .top-title {
+  width: 100%;
+  height: 58px;
+}
+#goods #recommend .top-title h2 {
+  float: left;
+  line-height: 58px;
+  font-size: 23px;
+}
+#goods #recommend .top-title .icon {
+  float: right;
+  line-height: 25px;
+  font-size: 17px;
+}
+#goods #recommend .top-title .icon span {
+  float: left;
+  width: 36px;
+  height: 25px;
+  margin-top: 16px;
+  border: 2px solid #bbb;
+  text-align: center;
+  cursor: pointer;
+}
+#goods #recommend .top-title .icon span:hover {
+  color: orange;
+}
+#goods #recommend .top-title .icon span.last {
+  margin-right: -2px;
+}
+#goods #recommend .top-title .icon span.last.disabled,
+#goods #recommend .top-title .icon span.next.disabled {
+  color: #bbb;
+}
+#goods #recommend .goodsList {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+#goods #recommend .goodsList .allGoods {
+  width: 500%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods {
+  float: left;
+  display: flex;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  float: left;
+  width: 234px;
+  height: 300px;
+  margin-right: 14px;
+  text-align: center;
+  transition: all .3s;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods:hover .reviewDesc {
+  transform: none;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods a {
+  display: block;
+  margin-top: 20px;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods a img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods .price {
+  line-height: 50px;
+  color: red;
+  font-size: 16px;
+}
+#goods #recommend .goodsList .allGoods .recommendGoods .hardgoods:last-of-type {
+  margin: 0;
+}
+#goods #hotProduct {
+  overflow: hidden;
+}
+#goods #hotProduct .top-title h2 {
+  line-height: 58px;
+  font-size: 23px;
+}
+#goods #hotProduct .goodsList {
+  width: 100%;
+}
+#goods #hotProduct .goodsList .products {
+  width: 110%;
+}
+#goods #hotProduct .goodsList .products li {
+  float: left;
+  width: 296px;
+  height: 415px;
+  background-color: #fff;
+  margin: 0 14px 14px 0;
+  transition: all .3s;
+}
+#goods #hotProduct .goodsList .products li:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #hotProduct .goodsList .products li a {
+  display: block;
+}
+#goods #hotProduct .goodsList .products li a img {
+  width: 296px;
+  height: 220px;
+}
+#goods #hotProduct .goodsList .products li a p:first-of-type {
+  height: 72px;
+  margin: 22px 28px;
+  line-height: 24px;
+  font-size: 14px;
+}
+#goods #hotProduct .goodsList .products li a p:last-of-type {
+  line-height: 24px;
+  margin-left: 28px;
+  margin-bottom: 22px;
+  color: #ddd;
+}
+#goods #hotProduct .goodsList .products li a div {
+  margin-left: 28px;
+}
+#goods #hotProduct .goodsList .products li a div span {
+  float: left;
+  font-size: 14px;
+  margin-right: 10px;
+}
+#goods #hotProduct .goodsList .products li a div span:nth-of-type(2) {
+  width: 1px;
+  height: 14px;
+  background-color: #ddd;
+  margin-top: 2px;
+}
+#goods #hotProduct .goodsList .products li a div span:last-of-type {
+  color: red;
+}
+#goods #content .top-title h2 {
+  line-height: 58px;
+  font-size: 23px;
+}
+#goods #content .subcontent {
+  height: 422px;
+}
+#goods #content .subcontent > ul {
+  height: 100%;
+}
+#goods #content .subcontent > ul > li {
+  transition: all .3s;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 296px;
+  height: 100%;
+  float: left;
+  margin: 0 14px 14px 0;
+  background-color: #fff;
+}
+#goods #content .subcontent > ul > li:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #content .subcontent > ul > li:hover > span {
+  display: block;
+}
+#goods #content .subcontent > ul > li:last-of-type {
+  margin-right: 0;
+}
+#goods #content .subcontent > ul > li.orangecolor {
+  border-top: 1px solid orange;
+}
+#goods #content .subcontent > ul > li.orangecolor h3 {
+  color: orange;
+}
+#goods #content .subcontent > ul > li.orangecolor .slidebox .contentslide a.btnTxt {
+  border-color: orange;
+  color: orange;
+}
+#goods #content .subcontent > ul > li.orangecolor .slidebox .contentslide a.btnTxt:hover {
+  background-color: orange;
+  color: #fff;
+}
+#goods #content .subcontent > ul > li.greencolor {
+  border-top: 1px solid green;
+}
+#goods #content .subcontent > ul > li.greencolor h3 {
+  color: green;
+}
+#goods #content .subcontent > ul > li.greencolor .slidebox .contentslide a.btnTxt {
+  border-color: green;
+  color: green;
+}
+#goods #content .subcontent > ul > li.greencolor .slidebox .contentslide a.btnTxt:hover {
+  background-color: green;
+  color: #fff;
+}
+#goods #content .subcontent > ul > li.redcolor {
+  border-top: 1px solid red;
+}
+#goods #content .subcontent > ul > li.redcolor h3 {
+  color: red;
+}
+#goods #content .subcontent > ul > li.redcolor .slidebox .contentslide a.btnTxt {
+  border-color: red;
+  color: red;
+}
+#goods #content .subcontent > ul > li.redcolor .slidebox .contentslide a.btnTxt:hover {
+  background-color: red;
+  color: #fff;
+}
+#goods #content .subcontent > ul > li.bluecolor {
+  border-top: 1px solid blue;
+}
+#goods #content .subcontent > ul > li.bluecolor h3 {
+  color: blue;
+}
+#goods #content .subcontent > ul > li.bluecolor .slidebox .contentslide a.btnTxt {
+  border-color: blue;
+  color: blue;
+}
+#goods #content .subcontent > ul > li.bluecolor .slidebox .contentslide a.btnTxt:hover {
+  background-color: blue;
+  color: #fff;
+}
+#goods #content .subcontent > ul > li > span {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  width: 30px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #555;
+  color: #fff;
+  font-size: 18px;
+  top: 50%;
+  transform: translatey(-50%);
+  cursor: pointer;
+}
+#goods #content .subcontent > ul > li > span.right {
+  right: 0;
+}
+#goods #content .subcontent > ul > li h3 {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 16px;
+}
+#goods #content .subcontent > ul > li .slidebox {
+  position: absolute;
+  width: 400%;
+  height: 358px;
+}
+#goods #content .subcontent > ul > li .slidebox .contentslide {
+  background-color: #fff;
+  float: left;
+  position: relative;
+  width: 296px;
+  height: 300px;
+  text-align: center;
+}
+#goods #content .subcontent > ul > li .slidebox .contentslide h4 {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #555;
+}
+#goods #content .subcontent > ul > li .slidebox .contentslide .desc {
+  width: 200px;
+  margin: 0 auto 10px;
+  line-height: 18px;
+  color: #ddd;
+}
+#goods #content .subcontent > ul > li .slidebox .contentslide .price {
+  font-size: 13px;
+}
+#goods #content .subcontent > ul > li .slidebox .contentslide .btnTxt {
+  display: block;
+  border: 1px solid #000;
+  width: 132px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  margin: 10px auto;
+}
+#goods #content .subcontent > ul > li .slidebox .contentslide img {
+  width: 220px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+#goods #content .subcontent > ul > li .smallbar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+#goods #content .subcontent > ul > li .smallbar li {
+  cursor: pointer;
+  box-sizing: content-box;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #666;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+#goods #content .subcontent > ul > li .smallbar li.active {
+  background-color: #fff;
+  border: 2px solid red;
+  margin-top: 0;
+}
+#goods #content .subcontent > ul > li .smallbar li:last-of-type {
+  margin-right: 0;
+}
+#goods #video {
+  margin-bottom: 50px;
+}
+#goods #video .top-title {
+  width: 100%;
+  height: 58px;
+}
+#goods #video .top-title h2 {
+  float: left;
+  line-height: 58px;
+  font-size: 23px;
+}
+#goods #video .top-title a {
+  display: block;
+  float: right;
+  line-height: 58px;
+  font-size: 15px;
+}
+#goods #video .top-title a:hover {
+  color: orange;
+}
+#goods #video .videocontent {
+  width: 100%;
+}
+#goods #video .videocontent > ul > li {
+  position: relative;
+  width: 296px;
+  height: 285px;
+  background-color: #fff;
+  float: left;
+  margin-right: 14px;
+  text-align: center;
+  transition: all .3s;
+}
+#goods #video .videocontent > ul > li:hover {
+  transform: translatey(-4px);
+  box-shadow: 3px 3px 10px 4px #999;
+}
+#goods #video .videocontent > ul > li:last-of-type {
+  margin-right: 0;
+}
+#goods #video .videocontent > ul > li a {
+  display: block;
+}
+#goods #video .videocontent > ul > li a img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#goods #video .videocontent > ul > li a p {
+  line-height: 30px;
+  font-size: 14px;
+}
+#goods #video .videocontent > ul > li a p:last-of-type {
+  color: #ccc;
+}
+#goods #video .videocontent > ul > li a span {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #333;
+  border-radius: 15px;
+}
+#goods #video .videocontent > ul > li a:hover span {
+  background-color: orange;
+}
+#footer .top-title {
+  border-bottom: 1px solid #ccc;
+}
+#footer .top-title ul {
+  padding: 30px 0;
+}
+#footer .top-title ul li {
+  float: left;
+  position: relative;
+  padding: 0 50px;
+}
+#footer .top-title ul li span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 16px;
+  background-color: #ddd;
+}
+#footer .top-title ul li a {
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 40px;
+  position: relative;
+}
+#footer .top-title ul li a i {
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+}
+#footer .serve {
+  padding: 50px 0;
+}
+#footer .serve .servelist {
+  float: left;
+  margin-right: 100px;
+}
+#footer .serve .servelist h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#footer .serve .servelist ul {
+  line-height: 22px;
+}
+#footer .serve > span {
+  width: 1px;
+  height: 104px;
+  background-color: #ccc;
+  float: left;
+  margin-left: 24px;
+}
+#footer .serve .contact {
+  float: left;
+  padding-left: 40px;
+  text-align: center;
+  position: relative;
+}
+#footer .serve .contact .phone {
+  font-size: 21px;
+  font-weight: bold;
+  color: red;
+  margin: 5px 0 15px;
+}
+#footer .serve .contact a {
+  position: absolute;
+  box-sizing: content-box;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  bottom: 0;
+  left: 113px;
+  transform: translate(-50%, 100%);
+  padding: 0 10px;
+  color: red;
+  border: 1px solid red;
+}
+#footer .serve .contact a:hover {
+  background-color: red;
+  color: white;
+}
+#footer .footer-explan {
+  padding: 20px 0;
+}
+#footer .footer-explan > img {
+  float: left;
+  width: 57px;
+  height: 57px;
+}
+#footer .footer-explan .morelink {
+  float: left;
+  width: 757px;
+  margin-left: 10px;
+}
+#footer .footer-explan .morelink .links {
+  float: left;
+}
+#footer .footer-explan .morelink .links li {
+  float: left;
+  margin-right: 4px;
+}
+#footer .footer-explan .morelink .links li a {
+  padding-right: 4px;
+}
+#footer .footer-explan .morelink p {
+  float: left;
+  width: 757px;
+  margin-top: 3px;
+  color: #ccc;
+}
+#footer .footer-explan .mates {
+  float: right;
+}
+#footer .footer-explan .mates li {
+  float: left;
+}
+#footer .footer-explan .mates li img {
+  width: 85px;
+}
+#footer .footer-bottom {
+  text-align: center;
+  font: 24px 'KaiTi';
+  line-height: 40px;
+  color: #ccc;
+}
+
